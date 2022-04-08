@@ -33,7 +33,7 @@ class WorldTime {
       time = DateFormat.jm().format(now).toString();
       // print(time);
     }catch(e){
-      time="error at the Api link";
+      time="Network Error";
     }
 
 
